@@ -1,0 +1,295 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5DC;
+    color: black;
+}
+
+header {
+   padding: 20px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   background-color: #582F0E;
+   color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenutoheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* herosection */
+
+.herosection {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+   
+}
+
+.image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1; 
+}
+
+.herosection {
+    margin-bottom: 100px;
+}
+.contenutohero {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    z-index: 2; 
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+h2, h5 {
+    color: white;
+    z-index: 2;
+    margin: 0; 
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h5 {
+    font-size: 14pt; 
+}
+
+
+/* introduzione */
+
+.contenutointro {
+    display: flex;
+    align-items: center;
+    gap: 350px;
+    margin: auto;    
+}
+.introduz{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.introduz p {
+    width: 450px;
+}
+
+.introduz img {
+    width: 30%;
+}
+
+.titoloc{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    color: #582F0E;
+    border-bottom: 3px solid #A68A64;
+    width: 1100px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+
+
+
+/* cards */
+
+.cardsparchi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.contenutocard {
+    width: 100%;
+    max-width: 1100px;
+}
+
+.grigliaparchi {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    max-width: 250px; 
+    background-color: white;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.card h4 {
+    background-color: white;
+    color: #582F0E;
+    margin: 0;
+    padding: 10px;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+footer {
+    background-color: #582F0E;
+    color: white;
+    padding: 20px;
+}
+
+footer p{
+    font-weight: bolder;
+}
+.contatti a{
+    color: white;
+    text-decoration: none;
+}
+
+.contenutofooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contatti ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contatti li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+@media (max-width: 600px) {
+
+    /* HEADER */
+    .contenutoheader {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    /* HERO SECTION */
+    .herosection {
+        height: 300px;
+    }
+
+    h2 {
+        font-size: 18pt;
+    }
+
+    h5 {
+        font-size: 12pt;
+    }
+
+    /* INTRODUZIONE */
+    .contenutointro {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .introduz img {
+        width: 60%;
+    }
+
+    .introduz p {
+        width: 90%;
+    }
+
+    /* CARDS */
+    .grigliaparchi {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        max-width: 100%;
+    }
+
+    .card img {
+        height: auto;
+    }
+
+    /* FOOTER */
+    .contenutofooter {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .contatti li {
+        display: block;
+        margin: 5px 0;
+    }
+}
