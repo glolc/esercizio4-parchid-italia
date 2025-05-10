@@ -112,10 +112,10 @@ h2 {
     margin-left: 700px;
 }
 
-.dividergranp1 {
-    border-top: 3px solid #A68A64;
+.testogranp1 {
+    border-bottom: 3px solid #A68A64;
     margin: 10px 0;
-    width: 650px;
+    width: 600px;
 }
 
 /* seconda box */
@@ -142,11 +142,7 @@ h2 {
 .testogranp2 h3{
     font-size: 24px;
 }
-.dividergranpmezzo{
-    border-top: 3px solid #A68A64;
-    margin: 10px 0;
-    width: 650px;
-}
+
 
 .piantagranpar img {
     width: 1000px;
@@ -180,21 +176,13 @@ h2 {
     flex-direction: column;
     color: black;
     width: 600px;
+
 }
 .testogranp3 h3{
     font-size: 20pt;
 }
-.dividergranpmezzo2{
-    border-top: 3px solid #A68A64;
-    margin: 10px 0;
-    width: 650px;
-}
 
-.dividergranpmezzo21{
-    border-top: 3px solid #A68A64;
-    margin: 10px 0;
-    width: 650px;
-}
+
 
 /* quarta box */
 .boxgrandp4 {
@@ -309,10 +297,7 @@ footer p{
        width: 450px;
     }
     
-    .dividergranp1 {
-        margin: 10px 0;
-        width: 400px;
-    }
+    
     
     /* seconda box */
     
@@ -332,10 +317,7 @@ footer p{
         margin-left: 20px;
     }
     
-    .dividergranpmezzo{
-        margin: 10px 0;
-        width: 400px;
-    }
+   
     
     .piantagranpar img {
         width: 450px;
@@ -358,15 +340,8 @@ footer p{
         margin-left: 20px;
     }
     
-    .dividergranpmezzo2{
-        margin: 10px 0;
-        width: 400px;
-    }
     
-    .dividergranpmezzo21{
-        margin: 10px 0;
-        width: 400px;
-    }
+    
     
     /* quarta box */
     .boxgrandp4 {
