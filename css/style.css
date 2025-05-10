@@ -203,6 +203,9 @@ footer p{
     color: white;
     text-decoration: none;
 }
+a {
+    text-decoration: none;
+}
 
 .contenutofooter {
     display: flex;
