@@ -721,122 +721,78 @@ h3 {
   
 
 /* RESPONSIVE FLORA E FAUNA */
+
 /* Gran Paradiso */
 
-.boxgrandpff{
-    max-width: 1000px;
-    margin: auto;
-    color: black;
-    margin-bottom: 150px;
+.boxgrandpff {
+    max-width: 450px;
+    margin: 20px;
 }
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-}
+
 .contenutogranpff {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
 }
-.testogranpff {
-    flex: 1;
-}
+
 .stambecco {
-    width: 300px;
-    height: auto;
-    margin-top: 50px;
+    margin-left: 60px;
 }
-
-
-
 
 /* Etna */
 
 .boxetnaff {
-    max-width: 1000px;
-    margin: auto;
-    color: black;
-    margin-bottom: 150px;
-    
+    max-width: 450px;
+    margin: 20px;
 }
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-}
+
 .contenutoetnaff {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
 }
-.testoetnaff {
-    flex: 1;
-}
+
 .volpe {
-    width: 300px;
-    height: auto;
-    margin-top: 50px;
+    margin-left: 60px;
 }
 
 
 /* Dolomiti */
 
 .boxdolomitiff {
-    max-width: 1000px;
-    margin: auto;
-    color: black;
-    margin-bottom: 150px;
-    
+    max-width: 450px;
+    margin: 20px;
 }
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-}
+
 .contenutodolomitiff {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
 }
-.testodolomitiff {
-    flex: 1;
-}
+
+
 .camoscio {
-    width: 300px;
-    height: auto;
-    margin-top: 50px;
+    margin-left: 60px;
 }
 
 
 /* Pollino */
 
 .boxpollinoff {
-    max-width: 1000px;
-    margin: auto;
-    color: black;
-    margin-bottom: 150px;
+    max-width: 450px;
+    margin: 20px;
     
 }
-h3 {
-    font-size: 24px;
-    font-weight: bold;
-}
+
 .contenutopollinoff {
     display: flex;
-    flex-direction: row;
-    gap: 50px;
-    align-items: flex-start;
-}
-.testopollinoff {
-    flex: 1;
-}
-.lupo {
-    width: 300px;
-    height: auto;
-    margin-top: 50px;
+    flex-direction: column;
+    gap: 20px;
 }
 
+.lupo {
+    margin-left: 60px;
+}
 
 
     /* FOOTER */
