@@ -406,7 +406,135 @@ h3 {
 
 
 
+/* PAGINA FLORA E FAUNA */
+/* Gran Paradiso */
 
+.boxgrandpff {
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.contenutogranpff {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+}
+.testogranpff {
+    flex: 1;
+}
+.stambecco {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
+.dividergranp {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
+}
+
+
+
+/* Etna */
+
+.boxetnaff {
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
+    
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.contenutoetnaff {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+}
+.testoetnaff {
+    flex: 1;
+}
+.volpe {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
+.divideretna {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
+}
+
+/* Dolomiti */
+
+.boxdolomitiff {
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
+    
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.contenutodolomitiff {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+}
+.testodolomitiff {
+    flex: 1;
+}
+.camoscio {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
+.dividerdolomiti {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
+}
+
+/* Pollino */
+
+.boxpollinoff {
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
+    
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.contenutopollinoff {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+}
+.testopollinoff {
+    flex: 1;
+}
+.lupo {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+}
+.dividerpollino {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
+}
 
 
 
@@ -589,6 +717,81 @@ h3 {
     width: 450px;
     height: 210px;
     object-fit: cover;
+}
+
+  
+
+/* RESPONSIVE FLORA E FAUNA */
+/* Gran Paradiso */
+
+.boxgrandpff {
+    max-width: 450px;
+    margin: 20px;
+}
+
+.contenutogranpff {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.stambecco {
+    margin-left: 60px;
+}
+
+/* Etna */
+
+.boxetnaff {
+    max-width: 450px;
+    margin: 20px;
+}
+
+.contenutoetnaff {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.volpe {
+    margin-left: 60px;
+}
+
+
+/* Dolomiti */
+
+.boxdolomitiff {
+    max-width: 450px;
+    margin: 20px;
+}
+
+.contenutodolomitiff {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.camoscio {
+    margin-left: 60px;
+}
+
+
+/* Pollino */
+
+.boxpollinoff {
+    max-width: 450px;
+    margin: 20px;
+    
+}
+
+.contenutopollinoff {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lupo {
+    margin-left: 60px;
 }
 
 

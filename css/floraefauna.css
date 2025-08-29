@@ -100,7 +100,7 @@ h1 {
 
 /* Gran Paradiso */
 
-.boxgrandp {
+.boxgrandpff {
     max-width: 1000px;
     margin: auto;
     color: black;
@@ -110,13 +110,13 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
-.contenutogranp {
+.contenutogranpff {
     display: flex;
     flex-direction: row;
     gap: 50px;
     align-items: flex-start;
 }
-.testogranp {
+.testogranpff {
     flex: 1;
 }
 .stambecco {
@@ -133,7 +133,7 @@ h3 {
 
 /* Etna */
 
-.boxetna {
+.boxetnaff {
     max-width: 1000px;
     margin: auto;
     color: black;
@@ -144,13 +144,13 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
-.contenutoetna {
+.contenutoetnaff {
     display: flex;
     flex-direction: row;
     gap: 50px;
     align-items: flex-start;
 }
-.testoetna {
+.testoetnaff {
     flex: 1;
 }
 .volpe {
@@ -165,7 +165,7 @@ h3 {
 
 /* Dolomiti */
 
-.boxdolomiti {
+.boxdolomitiff {
     max-width: 1000px;
     margin: auto;
     color: black;
@@ -176,13 +176,13 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
-.contenutodolomiti {
+.contenutodolomitiff {
     display: flex;
     flex-direction: row;
     gap: 50px;
     align-items: flex-start;
 }
-.testodolomiti {
+.testodolomitiff {
     flex: 1;
 }
 .camoscio {
@@ -197,7 +197,7 @@ h3 {
 
 /* Pollino */
 
-.boxpollino {
+.boxpollinoff {
     max-width: 1000px;
     margin: auto;
     color: black;
@@ -208,13 +208,13 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
-.contenutopollino {
+.contenutopollinoff {
     display: flex;
     flex-direction: row;
     gap: 50px;
     align-items: flex-start;
 }
-.testopollino {
+.testopollinoff {
     flex: 1;
 }
 .lupo {
@@ -286,12 +286,12 @@ footer p{
 
 /* Gran Paradiso */
 
-.boxgrandp {
+.boxgrandpff {
     max-width: 450px;
     margin: 20px;
 }
 
-.contenutogranp {
+.contenutogranpff {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -303,12 +303,12 @@ footer p{
 
 /* Etna */
 
-.boxetna {
+.boxetnaff {
     max-width: 450px;
     margin: 20px;
 }
 
-.contenutoetna {
+.contenutoetnaff {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -321,12 +321,12 @@ footer p{
 
 /* Dolomiti */
 
-.boxdolomiti {
+.boxdolomitiff {
     max-width: 450px;
     margin: 20px;
 }
 
-.contenutodolomiti {
+.contenutodolomitiff {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -340,13 +340,13 @@ footer p{
 
 /* Pollino */
 
-.boxpollino {
+.boxpollinoff {
     max-width: 450px;
     margin: 20px;
     
 }
 
-.contenutopollino {
+.contenutopollinoff {
     display: flex;
     flex-direction: column;
     gap: 20px;
