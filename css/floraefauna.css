@@ -100,7 +100,7 @@ h1 {
 
 /* Gran Paradiso */
 
-.boxgrandpff {
+.boxgrandp {
     max-width: 1000px;
     margin: auto;
     color: black;
@@ -110,13 +110,13 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
-.contenutogranpff {
+.contenutogranp {
     display: flex;
     flex-direction: row;
     gap: 50px;
     align-items: flex-start;
 }
-.testogranpff {
+.testogranp {
     flex: 1;
 }
 .stambecco {
@@ -133,7 +133,7 @@ h3 {
 
 /* Etna */
 
-.boxetnaff {
+.boxetna {
     max-width: 1000px;
     margin: auto;
     color: black;
@@ -144,13 +144,13 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
-.contenutoetnaff {
+.contenutoetna {
     display: flex;
     flex-direction: row;
     gap: 50px;
     align-items: flex-start;
 }
-.testoetnaff {
+.testoetna {
     flex: 1;
 }
 .volpe {
@@ -165,7 +165,7 @@ h3 {
 
 /* Dolomiti */
 
-.boxdolomitiff {
+.boxdolomiti {
     max-width: 1000px;
     margin: auto;
     color: black;
@@ -176,13 +176,13 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
-.contenutodolomitiff {
+.contenutodolomiti {
     display: flex;
     flex-direction: row;
     gap: 50px;
     align-items: flex-start;
 }
-.testodolomitiff {
+.testodolomiti {
     flex: 1;
 }
 .camoscio {
@@ -190,14 +190,14 @@ h3 {
     height: auto;
     margin-top: 50px;
 }
-.dividerdolomiti {
+.dividerdolomiti{
     border-top: 3px solid #A68A64;
     margin: 10px 0;
 }
 
 /* Pollino */
 
-.boxpollinoff {
+.boxpollino {
     max-width: 1000px;
     margin: auto;
     color: black;
@@ -208,13 +208,13 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
-.contenutopollinoff {
+.contenutopollino {
     display: flex;
     flex-direction: row;
     gap: 50px;
     align-items: flex-start;
 }
-.testopollinoff {
+.testopollino {
     flex: 1;
 }
 .lupo {
