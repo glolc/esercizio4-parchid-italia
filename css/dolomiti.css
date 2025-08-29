@@ -409,7 +409,7 @@ h3 {
 /* PAGINA FLORA E FAUNA */
 /* Gran Paradiso */
 
-.boxgrandpff {
+.boxgrandpff{
     max-width: 1000px;
     margin: auto;
     color: black;
@@ -433,7 +433,7 @@ h3 {
     height: auto;
     margin-top: 50px;
 }
-.dividergranp {
+.dividergranpff {
     border-top: 3px solid #A68A64;
     margin: 10px 0;
 }
@@ -467,10 +467,11 @@ h3 {
     height: auto;
     margin-top: 50px;
 }
-.divideretna {
+.divideretnaff {
     border-top: 3px solid #A68A64;
     margin: 10px 0;
 }
+
 
 /* Dolomiti */
 
@@ -499,7 +500,8 @@ h3 {
     height: auto;
     margin-top: 50px;
 }
-.dividerdolomiti {
+
+.dividerdolomitiff {
     border-top: 3px solid #A68A64;
     margin: 10px 0;
 }
@@ -531,14 +533,11 @@ h3 {
     height: auto;
     margin-top: 50px;
 }
-.dividerpollino {
+
+.dividerpollinoff {
     border-top: 3px solid #A68A64;
     margin: 10px 0;
 }
-
-
-
-
 
 
 /* RESPONSIVE */ 

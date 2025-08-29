@@ -124,7 +124,10 @@ h3 {
     height: auto;
     margin-top: 50px;
 }
-
+.dividergranpff {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
+}
 
 
 
@@ -154,6 +157,10 @@ h3 {
     width: 300px;
     height: auto;
     margin-top: 50px;
+}
+.divideretnaff {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
 }
 
 
@@ -185,6 +192,10 @@ h3 {
     margin-top: 50px;
 }
 
+.dividerdolomitiff {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
+}
 
 /* Pollino */
 
@@ -212,6 +223,11 @@ h3 {
     width: 300px;
     height: auto;
     margin-top: 50px;
+}
+
+.dividerpollinoff {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
 }
 
 
