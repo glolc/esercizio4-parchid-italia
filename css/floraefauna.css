@@ -100,7 +100,7 @@ h1 {
 
 /* Gran Paradiso */
 
-.boxgrandp {
+.boxgrandp{
     max-width: 1000px;
     margin: auto;
     color: black;
@@ -124,10 +124,7 @@ h3 {
     height: auto;
     margin-top: 50px;
 }
-.dividergranp {
-    border-top: 3px solid #A68A64;
-    margin: 10px 0;
-}
+
 
 
 
@@ -158,10 +155,7 @@ h3 {
     height: auto;
     margin-top: 50px;
 }
-.divideretna {
-    border-top: 3px solid #A68A64;
-    margin: 10px 0;
-}
+
 
 /* Dolomiti */
 
@@ -190,10 +184,7 @@ h3 {
     height: auto;
     margin-top: 50px;
 }
-.dividerdolomiti{
-    border-top: 3px solid #A68A64;
-    margin: 10px 0;
-}
+
 
 /* Pollino */
 
@@ -222,10 +213,7 @@ h3 {
     height: auto;
     margin-top: 50px;
 }
-.dividerpollino {
-    border-top: 3px solid #A68A64;
-    margin: 10px 0;
-}
+
 
 /* footer */
 footer {
