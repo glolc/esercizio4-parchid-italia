@@ -724,74 +724,118 @@ h3 {
 /* RESPONSIVE FLORA E FAUNA */
 /* Gran Paradiso */
 
-.boxgrandpff {
-    max-width: 450px;
-    margin: 20px;
+.boxgrandpff{
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
 }
-
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
 .contenutogranpff {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
+}
+.testogranpff {
+    flex: 1;
+}
+.stambeccoff {
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
 }
 
-.stambecco {
-    margin-left: 60px;
-}
+
+
 
 /* Etna */
 
 .boxetnaff {
-    max-width: 450px;
-    margin: 20px;
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
+    
 }
-
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
 .contenutoetnaff {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
 }
-
+.testoetnaff {
+    flex: 1;
+}
 .volpe {
-    margin-left: 60px;
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
 }
 
 
 /* Dolomiti */
 
 .boxdolomitiff {
-    max-width: 450px;
-    margin: 20px;
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
+    
 }
-
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
 .contenutodolomitiff {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
 }
-
-
+.testodolomitiff {
+    flex: 1;
+}
 .camoscio {
-    margin-left: 60px;
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
 }
 
 
 /* Pollino */
 
 .boxpollinoff {
-    max-width: 450px;
-    margin: 20px;
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
     
 }
-
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
 .contenutopollinoff {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    flex-direction: row;
+    gap: 50px;
+    align-items: flex-start;
 }
-
+.testopollinoff {
+    flex: 1;
+}
 .lupo {
-    margin-left: 60px;
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
 }
 
 
