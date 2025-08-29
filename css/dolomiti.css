@@ -21,6 +21,15 @@ header {
      text-decoration: none;
  }
  
+ header a:hover {
+  color: black;
+}
+
+header a.active{
+  color: black;
+  font-weight: bolder;
+}
+
  .contenutoheader {
      display: flex;
      justify-content: space-between;
@@ -257,6 +266,153 @@ footer p{
     margin-right: 20px;
 }
 
+/* PAGINA ATTIVITà */
+
+.boxgrandp {
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.contenutogranp {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    color: black ;
+}
+.testogranp {
+    flex: 1;
+    width: 600px;
+}
+.birdwatching {
+    width: 1000px;
+    height: 210px;
+}
+.dividergranp {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
+}
+
+
+/* Etna */
+
+.boxetna {
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
+    align-items: flex-end;
+}
+.titoloetna {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+.contenutoetna {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-end;
+    color: black ;
+}
+.testoetna {
+    flex: 1;
+    width: 600px;
+}
+.crateri {
+    width: 1000px;
+    height: 210px;
+    object-fit: cover;
+}
+.divideretna {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
+}
+
+/* Dolomiti */
+
+.boxdolomiti {
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.contenutodolomiti {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    color: black ;
+}
+.testodolomiti {
+    flex: 1;
+    width: 600px;
+}
+.trekking {
+    width: 1000px;
+    height: 210px;
+    object-fit: cover;
+}
+.dividerdolomiti {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
+}
+
+
+
+/* Pollino */
+
+.boxpollino {
+    max-width: 1000px;
+    margin: auto;
+    color: black;
+    margin-bottom: 150px;
+    align-items: flex-end;
+}
+.titolopollino {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+.contenutopollino {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-end;
+    color: black ;
+}
+.testopollino {
+    flex: 1;
+    width: 600px;
+}
+.faggi {
+    width: 1000px;
+    height: 210px;
+    object-fit: cover;
+}
+.dividerpollino {
+    border-top: 3px solid #A68A64;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE */ 
 
 @media (max-width: 600px) {
@@ -363,6 +519,80 @@ footer p{
         margin-left: 20px;
     }
     
+
+
+
+
+
+    /* RESPONSIVE ATTIVITà */
+
+/* Gran Paradiso */
+
+.boxgrandp {
+    max-width: 450px;
+}
+
+.testogranp {
+    width: 450px;
+}
+.birdwatching {
+    width: 450px;
+    height: 210px;
+    object-fit: cover;
+}
+
+/* Etna */
+
+.boxetna {
+    max-width: 450px;
+}
+.titoloetna {
+    text-align: left;
+}
+.testoetna {
+    width: 450px;
+}
+.crateri {
+    width: 450px;
+    height: 210px;
+    object-fit: cover;
+}
+
+/* Dolomiti */
+
+.boxdolomiti {
+    max-width: 450px;
+}
+
+.testodolomiti {
+    width: 450px;
+}
+.trekking {
+    width: 450px;
+    height: 210px;
+    object-fit: cover;
+}
+
+/* Pollino */
+
+.boxpollino {
+    max-width: 450px;
+
+}
+.titolopollino {
+    text-align: left;
+}
+.testopollino {
+    width: 450px;
+}
+.faggi {
+    width: 450px;
+    height: 210px;
+    object-fit: cover;
+}
+
+
+
     /* FOOTER */
     .contenutofooter {
         flex-direction: column;
